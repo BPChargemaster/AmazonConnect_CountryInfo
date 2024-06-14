@@ -3,7 +3,7 @@ provider "aws" {
   default_tags {
     tags = {
       Created_by  = "terraform"
-      Repo        = "BPChargemaster/AmazonConnect_Callback"
+      Repo        = "BPChargemaster/AmazonConnect_CountryInfo"
       Environment = var.env_type
     }
   }
